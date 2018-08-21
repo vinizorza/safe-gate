@@ -2,7 +2,7 @@ module.exports = function(sequelize, DataTypes) {
   var Sequelize = sequelize.Sequelize;
 
   var funcionario = sequelize.define(
-    "Funcionario",
+    "funcionario",
     {
       func_id_funcionario: {
         allowNull: false,
